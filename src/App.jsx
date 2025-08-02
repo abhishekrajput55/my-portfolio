@@ -543,12 +543,22 @@ const App = () => {
               skills, and experience.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg font-medium flex items-center transition-all">
+              {/* Example assuming your resume file is named Abhishek_Rajput_Resume.pdf and is inside the 'public' folder */}
+              <a
+                href="/assets/Abhishek_Singh_Resume.pdf" // <-- Update this filename/path
+                target="_blank" // Opens the PDF in a new tab
+                rel="noopener noreferrer" // Security best practice
+                className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg font-medium flex items-center transition-all"
+              >
                 <i className="fas fa-eye mr-2"></i> View Resume
-              </button>
-              <button className="px-6 py-3 bg-transparent border-2 border-cyan-600 text-cyan-400 hover:bg-cyan-600/10 rounded-lg font-medium flex items-center transition-all">
+              </a>
+              <a
+                href="/assets/Abhishek_Singh_Resume.pdf" // <-- Update this filename/path
+                download // Suggests downloading the file
+                className="px-6 py-3 bg-transparent border-2 border-cyan-600 text-cyan-400 hover:bg-cyan-600/10 rounded-lg font-medium flex items-center transition-all"
+              >
                 <i className="fas fa-download mr-2"></i> Download Resume
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -653,7 +663,9 @@ const App = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-lg">Email</h4>
-                      <p className="text-gray-400">abhishek@example.com</p>{" "}
+                      <p className="text-gray-400">
+                        rajputabhishek5568@gmail.com
+                      </p>{" "}
                       {/* Update with your email */}
                     </div>
                   </div>
@@ -663,7 +675,7 @@ const App = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-lg">Phone</h4>
-                      <p className="text-gray-400">+91 98765 43210</p>{" "}
+                      <p className="text-gray-400">+91 7529036258</p>{" "}
                       {/* Update with your phone */}
                     </div>
                   </div>
@@ -673,28 +685,28 @@ const App = () => {
                   <div className="flex space-x-4">
                     {/* Update these links with your actual profiles */}
                     <a
-                      href="#"
+                      href="https://github.com/abhishekrajput55"
                       className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors"
                       aria-label="GitHub"
                     >
                       <i className="fab fa-github"></i>
                     </a>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/abhishek-singh-97083a2a6"
                       className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors"
                       aria-label="LinkedIn"
                     >
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                     <a
-                      href="#"
+                      href="https://x.com/AbhixRajput55"
                       className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors"
                       aria-label="Twitter"
                     >
                       <i className="fab fa-twitter"></i>
                     </a>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/iabhi.rajput/?hl=en"
                       className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors"
                       aria-label="Instagram"
                     >
@@ -719,28 +731,28 @@ const App = () => {
             <div className="flex space-x-6">
               {/* Update these links with your actual profiles */}
               <a
-                href="#"
+                href="https://github.com/abhishekrajput55"
                 className="text-gray-400 hover:text-white transition"
                 aria-label="GitHub"
               >
                 <i className="fab fa-github text-xl"></i>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/abhishek-singh-97083a2a6"
                 className="text-gray-400 hover:text-white transition"
                 aria-label="LinkedIn"
               >
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
               <a
-                href="#"
+                href="https://x.com/AbhixRajput55"
                 className="text-gray-400 hover:text-white transition"
                 aria-label="Twitter"
               >
                 <i className="fab fa-twitter text-xl"></i>
               </a>
               <a
-                href="mailto:abhishek@example.com"
+                href="mailto:rajputabhishek5568@gmail.com"
                 className="text-gray-400 hover:text-white transition"
                 aria-label="Email"
               >
