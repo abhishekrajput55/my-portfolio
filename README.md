@@ -7,28 +7,12 @@ This is my personal developer portfolio website, created to present my skills, s
 ## 🌐 Live Website
 
 🔗 [View Portfolio](#)  
-(https://abhishekrajput55.github.io/Abhishek_Singh_Rajput)
-
----
-## 📁 Project Structure
-
-├── .vscode/ # VS Code workspace settings (optional)
-├── assets/
-│ └── img/ # Profile picture, project screenshots, icons, etc.
-├── jsfiles/
-│ └── script.js # JavaScript animations & interactions (GSAP)
-├── index.html # Main HTML structure
-├── style.css # Custom styles and layout
-
-
----
+(https://abhisheksinghrajput.netlify.app/)
 
 ## 🛠️ Technologies Used
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
-- **GSAP (GreenSock Animation Platform)**
+- **React**
+- **Tailwind/CSS**
 - **Responsive Design Principles**
 
 ---
@@ -40,14 +24,13 @@ This is my personal developer portfolio website, created to present my skills, s
 - 🧑‍💻 Project showcases with images
 - 📄 Resume and contact info
 - 📬 Contact section with social links
-- 🎞️ Smooth scroll and animations using GSAP
 - ✅ Fully responsive layout for mobile and desktop
 
 ---
 
 ## 🎯 Purpose
 
-> I built this portfolio to explore my website designing skills, practice animation using GSAP, and showcase my academic and personal web projects.
+> I built this portfolio to explore my website designing skills, practice react, and showcase my academic and personal web projects.
 
 --- 
 ## 📸 Preview
