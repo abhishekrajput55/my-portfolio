@@ -1,12 +1,92 @@
-# React + Vite
+# 💼 Abhishek Singh — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio website, created to present my skills, showcase my projects, and demonstrate frontend development with animation using **GSAP**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Website
 
-## Expanding the ESLint configuration
+🔗 [View Portfolio](#)  
+(https://abhishekrajput55.github.io/Abhishek_Singh_Rajput)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 📁 Project Structure
+
+├── .vscode/ # VS Code workspace settings (optional)
+├── assets/
+│ └── img/ # Profile picture, project screenshots, icons, etc.
+├── jsfiles/
+│ └── script.js # JavaScript animations & interactions (GSAP)
+├── index.html # Main HTML structure
+├── style.css # Custom styles and layout
+
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **GSAP (GreenSock Animation Platform)**
+- **Responsive Design Principles**
+
+---
+
+## 🚀 Features
+
+- 👋 Hero introduction section
+- 🛠️ Skills and tools section
+- 🧑‍💻 Project showcases with images
+- 📄 Resume and contact info
+- 📬 Contact section with social links
+- 🎞️ Smooth scroll and animations using GSAP
+- ✅ Fully responsive layout for mobile and desktop
+
+---
+
+## 🎯 Purpose
+
+> I built this portfolio to explore my website designing skills, practice animation using GSAP, and showcase my academic and personal web projects.
+
+--- 
+## 📸 Preview
+
+### 🖼️ Home Page
+![Home](assets/img/portImg_1.png)
+
+### 🖼️ Projects Section
+![Projects](assets/img/portImg_2.png)
+
+### 🖼️ Skill Section
+![Contact](assets/img/portImg_3.png)
+
+### 🖼️ About Section
+![About](assets/img/portImg_4.png)
+
+### 🖼️ Resume Section
+![About](assets/img/portImg_5.png)
+
+### 🖼️ Contact Section
+![Contact](assets/img/portImg_6.png)
+
+### 🖼️ Footer Section
+![Footer](assets/img/portImg_7.png)
+---
+
+## 📬 Contact
+
+- 📧 rathoreabhishek006@gmail.com  
+- 📱 +91-7529036258  
+- 🌐 [LinkedIn](#) • [GitHub](#) • [Twitter](#)
+
+---
+
+## 🪪 License
+
+This project is available for learning, reference, and personal inspiration. You may fork it — credit is appreciated.
+
+---
+
+### 👨‍💻 Designed & Developed by **Abhishek Singh**
+
